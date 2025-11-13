@@ -6,7 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const weddingDate = new Date('2025-08-15T15:00:00');
+  const weddingDate = new Date('2025-11-20T15:00:00');
   
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -68,11 +68,11 @@ const Index = () => {
       <section id="hero" className="min-h-screen flex flex-col items-center justify-center px-4 pt-20 animate-fade-in">
         <div className="text-center max-w-4xl mx-auto space-y-8">
           <h1 className="font-heading text-7xl md:text-9xl font-light tracking-wide text-foreground">
-            Анна & Дмитрий
+            Татьяна & Харысхан
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-widest">
-            15 августа 2025
+            20 ноября 2025
           </p>
 
           <div className="py-12">
@@ -281,7 +281,7 @@ const Index = () => {
             <Card className="text-center p-8 border-border hover:shadow-lg transition-shadow">
               <CardContent className="space-y-4">
                 <Icon name="User" size={40} className="text-primary mx-auto" />
-                <h3 className="font-heading text-3xl">Анна</h3>
+                <h3 className="font-heading text-3xl">Татьяна</h3>
                 <div className="space-y-2 text-muted-foreground">
                   <div className="flex items-center justify-center gap-2">
                     <Icon name="Phone" size={18} />
@@ -289,7 +289,7 @@ const Index = () => {
                   </div>
                   <div className="flex items-center justify-center gap-2">
                     <Icon name="Mail" size={18} />
-                    <span>anna@example.com</span>
+                    <span>tatyana@example.com</span>
                   </div>
                 </div>
               </CardContent>
@@ -298,7 +298,7 @@ const Index = () => {
             <Card className="text-center p-8 border-border hover:shadow-lg transition-shadow">
               <CardContent className="space-y-4">
                 <Icon name="User" size={40} className="text-primary mx-auto" />
-                <h3 className="font-heading text-3xl">Дмитрий</h3>
+                <h3 className="font-heading text-3xl">Харысхан</h3>
                 <div className="space-y-2 text-muted-foreground">
                   <div className="flex items-center justify-center gap-2">
                     <Icon name="Phone" size={18} />
@@ -306,7 +306,7 @@ const Index = () => {
                   </div>
                   <div className="flex items-center justify-center gap-2">
                     <Icon name="Mail" size={18} />
-                    <span>dmitry@example.com</span>
+                    <span>kharyskhan@example.com</span>
                   </div>
                 </div>
               </CardContent>
@@ -316,8 +316,8 @@ const Index = () => {
       </section>
 
       <footer className="py-12 text-center text-muted-foreground border-t border-border">
-        <p className="font-heading text-2xl mb-2">Анна & Дмитрий</p>
-        <p className="text-sm">15 августа 2025</p>
+        <p className="font-heading text-2xl mb-2">Татьяна & Харысхан</p>
+        <p className="text-sm">20 ноября 2025</p>
       </footer>
     </div>
   );
