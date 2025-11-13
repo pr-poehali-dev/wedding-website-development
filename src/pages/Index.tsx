@@ -6,7 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const weddingDate = new Date('2025-12-20T15:00:00');
+  const weddingDate = new Date('2025-12-20T16:00:00');
   
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -151,8 +151,8 @@ const Index = () => {
                   <div>
                     <h3 className="font-heading text-2xl mb-2">Время</h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      Начало церемонии в 15:00<br />
-                      Просим приходить за 20 минут
+                      Сбор гостей в 16:00<br />
+                      Просим не опаздывать
                     </p>
                   </div>
                 </div>
