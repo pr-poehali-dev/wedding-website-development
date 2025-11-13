@@ -6,7 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const weddingDate = new Date('2025-11-20T15:00:00');
+  const weddingDate = new Date('2025-12-20T15:00:00');
   
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -72,7 +72,7 @@ const Index = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-widest">
-            20 ноября 2025
+            20 декабря 2025
           </p>
 
           <div className="py-12">
@@ -317,7 +317,7 @@ const Index = () => {
 
       <footer className="py-12 text-center text-muted-foreground border-t border-border">
         <p className="font-heading text-2xl mb-2">Татьяна & Харысхан</p>
-        <p className="text-sm">20 ноября 2025</p>
+        <p className="text-sm">20 декабря 2025</p>
       </footer>
     </div>
   );
